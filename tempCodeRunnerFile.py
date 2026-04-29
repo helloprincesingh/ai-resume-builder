@@ -61,4 +61,3 @@ if submitted:
                     )
             except Exception as e:
                 st.error(f"Error: {e}. Raw output below:")
-                st.code(response.choices[0].message.content)
